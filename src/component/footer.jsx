@@ -15,7 +15,9 @@ function Footer() {
     >
       <Typography color="black" variant="body2">
         © {new Date().getFullYear()} Riddhi Siddhi Ganesh Foundation. All rights
-        reserved. Designed with ❤️ by RSG Developers
+        reserved.
+        <br/>
+        Designed with ❤️ by RSG Developers
       </Typography>
     </Box>
   );
