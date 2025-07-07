@@ -1,11 +1,10 @@
-import React from 'react';
-import CenterSlider from '../component/CenterSlider';
+import React from "react";
+import CenterSlider from "../component/CenterSlider";
 
-
-function Gallery() {
+function Gallery({ isMobile }) {
   return (
     <div>
-     <CenterSlider />
+      <CenterSlider isMobile={isMobile} />
     </div>
   );
 }
