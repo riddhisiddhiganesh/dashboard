@@ -5,11 +5,16 @@ import Footer from './component/footer';
 import About from './pages/about';
 import Gallery from './pages/gallery';
 import Contact from './pages/contact';
-import { CssBaseline, Container, Box } from '@mui/material';
+import { CssBaseline, Container, Box, useTheme, useMediaQuery } from '@mui/material';
 import Home from './component/home';
 import backGroundImg from '../src/assets/backgroundImage2.png'
+import mobileImage from '../src/assets/IMG_7374.jpg'
 
 function App() {
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
+  const imageUrl = isMobile ? mobileImage : backGroundImg;
+
     return (
         <Box
           display="flex"
@@ -27,8 +32,10 @@ function App() {
               top: 0,
               left: 0,
               width: '100%',
-              height: '100%',
-              backgroundImage: `url(${backGroundImg})`,
+              // height: '100%',
+              height: { xs: '100%', sm: '100vh' },
+              // backgroundImage: `url(${backGroundImg})`,
+              backgroundImage: `url(${imageUrl})`,
               backgroundSize: 'cover',
               backgroundPosition: 'center',
               filter: 'blur(2px)', // uncomment for blur effect
