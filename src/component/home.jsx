@@ -4,10 +4,7 @@ import { Box, Typography, Link, colors } from "@mui/material";
 function Home() {
   return (
     <div>
-      {/* <h1 style={{ color: 'white' }}>Welcoming Lord Ganesha with joy and devotion</h1>
-        <p style={{ color: 'white', fontWeight: 'bold' }}>Celebrating Culture, Faith & Community Since 1995</p> */}
-
-      <Box style={{ color: "white", fontWeight: 'bold' }} sx={{ py: 4 }}>
+      <Box style={{ color: "white", fontWeight: "bold" }} sx={{ py: 4 }}>
         <Typography variant="h4" gutterBottom>
           Welcome to Riddhi Siddhi Ganesh Foundation
         </Typography>

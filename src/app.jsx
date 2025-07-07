@@ -6,10 +6,8 @@ import About from './pages/about';
 import Gallery from './pages/gallery';
 import Contact from './pages/contact';
 import { CssBaseline, Container, Box } from '@mui/material';
-import bappaImg from '../src/assets/bappa.jpg'; // 🔁 Replace with your image path
 import Home from './component/home';
 import backGroundImg from '../src/assets/backgroundImage2.png'
-import CenterSlider from './component/CenterSlider';
 
 function App() {
     return (
