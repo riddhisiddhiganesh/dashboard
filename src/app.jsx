@@ -7,7 +7,8 @@ import Gallery from './pages/gallery';
 import Contact from './pages/contact';
 import { CssBaseline, Container, Box, useTheme, useMediaQuery } from '@mui/material';
 import Home from './component/home';
-import backGroundImg from '../src/assets/backgroundImage2.png'
+// import backGroundImg from '../src/assets/backgroundImage2.png'
+import backGroundImg from '../src/assets/img1.jpg'
 import mobileImage from '../src/assets/IMG_7374.jpg'
 
 function App() {
@@ -38,7 +39,7 @@ function App() {
               backgroundImage: `url(${imageUrl})`,
               backgroundSize: 'cover',
               backgroundPosition: 'center',
-              filter: 'blur(2px)', // uncomment for blur effect
+              // filter: 'blur(2px)', // uncomment for blur effect
             //   opacity: 0.1,
               zIndex: 0,
             }}

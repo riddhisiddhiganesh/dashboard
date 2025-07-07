@@ -4,7 +4,7 @@ function About() {
   return (
     <div>
       <h2 style={{ color: "white" }}>About Us</h2>
-      <p style={{ color: "white", fontWeight: "bold" }}>
+      <p style={{ color: "white" }}>
         🙏🏻Riddhi siddhi “Ganesh foundation🙏🏻 Is one of the best foundation in
         burhanpur, m.p, the group is established in 1995 & since 30 years they
         are well known for there unique way of contribution towards, sarwajanik
