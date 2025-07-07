@@ -4,7 +4,6 @@ import App from "./app";
 import { BrowserRouter } from "react-router-dom";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 
-// const App = () => <h1>Hello React with Webpack!</h1>;
 const theme = createTheme();
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

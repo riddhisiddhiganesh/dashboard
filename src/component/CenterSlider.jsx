@@ -2,8 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "./CenterSlider.css"; // we'll add custom styles here
-import bappaImg from "../assets/bappa.jpg";
+import "./CenterSlider.css"; 
 import imag1 from "../assets/IMG_7515.jpg";
 import imag2 from "../assets/IMG_7374.jpg";
 import imag3 from "../assets/IMG_7463.JPG";
@@ -24,8 +23,6 @@ function CenterSlider({isMobile}) {
     autoplaySpeed: 1000,
     autoplay: true,
   };
-
-  // alert(isMobile);
 
   return (
     <div className="wrapper">
