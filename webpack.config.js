@@ -15,6 +15,7 @@ module.exports = {
     static: './dist',
     port: 3000,
     open: true,
+    historyApiFallback: true,
   },
   module: {
     rules: [
@@ -26,6 +27,10 @@ module.exports = {
       {
         test: /\.css$/i,
         use: ['style-loader', 'css-loader'],
+      },
+      {
+        test: /\.(png|jpe?g|gif|svg)$/i,
+        type: 'asset/resource',
       },
     ],
   },
