@@ -11,9 +11,6 @@ import Home from './component/home';
 import backGroundImg from '../src/assets/backgroundImage2.png'
 import CenterSlider from './component/CenterSlider';
 
-
-
-
 function App() {
     return (
         <Box
